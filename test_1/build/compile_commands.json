@@ -1,0 +1,12 @@
+[
+{
+  "directory": "/home/cai/cg/computer graphic/OpenGL_code/test_1/build",
+  "command": "/usr/bin/gcc   -g -std=gnu11 -o CMakeFiles/Test.dir/src/glad.c.o -c \"/home/cai/cg/computer graphic/OpenGL_code/test_1/src/glad.c\"",
+  "file": "/home/cai/cg/computer graphic/OpenGL_code/test_1/src/glad.c"
+},
+{
+  "directory": "/home/cai/cg/computer graphic/OpenGL_code/test_1/build",
+  "command": "/usr/bin/g++   -g -std=gnu++11 -o CMakeFiles/Test.dir/triangle.cpp.o -c \"/home/cai/cg/computer graphic/OpenGL_code/test_1/triangle.cpp\"",
+  "file": "/home/cai/cg/computer graphic/OpenGL_code/test_1/triangle.cpp"
+}
+]

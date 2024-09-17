@@ -1,0 +1,32 @@
+[
+{
+  "directory": "/home/cai/cg/computer graphic/OpenGL_code/test2_window/build",
+  "command": "/usr/bin/gcc   -g -std=gnu17 -o CMakeFiles/Test.dir/src/glad.c.o -c \"/home/cai/cg/computer graphic/OpenGL_code/test2_window/src/glad.c\"",
+  "file": "/home/cai/cg/computer graphic/OpenGL_code/test2_window/src/glad.c"
+},
+{
+  "directory": "/home/cai/cg/computer graphic/OpenGL_code/test2_window/build",
+  "command": "/usr/bin/g++   -g -std=gnu++17 -o CMakeFiles/Test.dir/main.cpp.o -c \"/home/cai/cg/computer graphic/OpenGL_code/test2_window/main.cpp\"",
+  "file": "/home/cai/cg/computer graphic/OpenGL_code/test2_window/main.cpp"
+},
+{
+  "directory": "/home/cai/cg/computer graphic/OpenGL_code/test2_window/build",
+  "command": "/usr/bin/g++   -g -std=gnu++17 -o CMakeFiles/Test.dir/IndexBuffer.cpp.o -c \"/home/cai/cg/computer graphic/OpenGL_code/test2_window/IndexBuffer.cpp\"",
+  "file": "/home/cai/cg/computer graphic/OpenGL_code/test2_window/IndexBuffer.cpp"
+},
+{
+  "directory": "/home/cai/cg/computer graphic/OpenGL_code/test2_window/build",
+  "command": "/usr/bin/g++   -g -std=gnu++17 -o CMakeFiles/Test.dir/VertexBuffer.cpp.o -c \"/home/cai/cg/computer graphic/OpenGL_code/test2_window/VertexBuffer.cpp\"",
+  "file": "/home/cai/cg/computer graphic/OpenGL_code/test2_window/VertexBuffer.cpp"
+},
+{
+  "directory": "/home/cai/cg/computer graphic/OpenGL_code/test2_window/build",
+  "command": "/usr/bin/g++   -g -std=gnu++17 -o CMakeFiles/Test.dir/Render.cpp.o -c \"/home/cai/cg/computer graphic/OpenGL_code/test2_window/Render.cpp\"",
+  "file": "/home/cai/cg/computer graphic/OpenGL_code/test2_window/Render.cpp"
+},
+{
+  "directory": "/home/cai/cg/computer graphic/OpenGL_code/test2_window/build",
+  "command": "/usr/bin/g++   -g -std=gnu++17 -o CMakeFiles/Test.dir/VertexArray.cpp.o -c \"/home/cai/cg/computer graphic/OpenGL_code/test2_window/VertexArray.cpp\"",
+  "file": "/home/cai/cg/computer graphic/OpenGL_code/test2_window/VertexArray.cpp"
+}
+]

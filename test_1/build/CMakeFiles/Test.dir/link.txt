@@ -1,0 +1,1 @@
+/usr/bin/g++ -g CMakeFiles/Test.dir/src/glad.c.o CMakeFiles/Test.dir/triangle.cpp.o -o Test  /usr/local/lib/libglfw3.a /usr/lib/x86_64-linux-gnu/librt.a -lm -ldl 

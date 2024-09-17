@@ -1,0 +1,1 @@
+/usr/bin/g++ CMakeFiles/Homework1.dir/src/glad.c.o CMakeFiles/Homework1.dir/main.cpp.o CMakeFiles/Homework1.dir/IndexBuffer.cpp.o CMakeFiles/Homework1.dir/VertexBuffer.cpp.o CMakeFiles/Homework1.dir/Render.cpp.o CMakeFiles/Homework1.dir/VertexArray.cpp.o -o Homework1  /usr/local/lib/libglfw3.a /usr/lib/x86_64-linux-gnu/librt.a -lm -ldl 

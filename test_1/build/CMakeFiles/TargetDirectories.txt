@@ -1,0 +1,3 @@
+/home/cai/cg/computer graphic/OpenGL_code/test_1/build/CMakeFiles/Test.dir
+/home/cai/cg/computer graphic/OpenGL_code/test_1/build/CMakeFiles/edit_cache.dir
+/home/cai/cg/computer graphic/OpenGL_code/test_1/build/CMakeFiles/rebuild_cache.dir
