@@ -1,0 +1,38 @@
+[
+{
+  "directory": "/Users/yunicai/Code_file/code/OpenGL_code/homework_1/build",
+  "command": "/usr/bin/clang  -isystem /opt/homebrew/include -g -std=gnu17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -o CMakeFiles/Homework1.dir/src/glad.c.o -c /Users/yunicai/Code_file/code/OpenGL_code/homework_1/src/glad.c",
+  "file": "/Users/yunicai/Code_file/code/OpenGL_code/homework_1/src/glad.c",
+  "output": "CMakeFiles/Homework1.dir/src/glad.c.o"
+},
+{
+  "directory": "/Users/yunicai/Code_file/code/OpenGL_code/homework_1/build",
+  "command": "/usr/bin/clang++  -isystem /opt/homebrew/include -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -o CMakeFiles/Homework1.dir/main.cpp.o -c /Users/yunicai/Code_file/code/OpenGL_code/homework_1/main.cpp",
+  "file": "/Users/yunicai/Code_file/code/OpenGL_code/homework_1/main.cpp",
+  "output": "CMakeFiles/Homework1.dir/main.cpp.o"
+},
+{
+  "directory": "/Users/yunicai/Code_file/code/OpenGL_code/homework_1/build",
+  "command": "/usr/bin/clang++  -isystem /opt/homebrew/include -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -o CMakeFiles/Homework1.dir/IndexBuffer.cpp.o -c /Users/yunicai/Code_file/code/OpenGL_code/homework_1/IndexBuffer.cpp",
+  "file": "/Users/yunicai/Code_file/code/OpenGL_code/homework_1/IndexBuffer.cpp",
+  "output": "CMakeFiles/Homework1.dir/IndexBuffer.cpp.o"
+},
+{
+  "directory": "/Users/yunicai/Code_file/code/OpenGL_code/homework_1/build",
+  "command": "/usr/bin/clang++  -isystem /opt/homebrew/include -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -o CMakeFiles/Homework1.dir/VertexBuffer.cpp.o -c /Users/yunicai/Code_file/code/OpenGL_code/homework_1/VertexBuffer.cpp",
+  "file": "/Users/yunicai/Code_file/code/OpenGL_code/homework_1/VertexBuffer.cpp",
+  "output": "CMakeFiles/Homework1.dir/VertexBuffer.cpp.o"
+},
+{
+  "directory": "/Users/yunicai/Code_file/code/OpenGL_code/homework_1/build",
+  "command": "/usr/bin/clang++  -isystem /opt/homebrew/include -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -o CMakeFiles/Homework1.dir/Render.cpp.o -c /Users/yunicai/Code_file/code/OpenGL_code/homework_1/Render.cpp",
+  "file": "/Users/yunicai/Code_file/code/OpenGL_code/homework_1/Render.cpp",
+  "output": "CMakeFiles/Homework1.dir/Render.cpp.o"
+},
+{
+  "directory": "/Users/yunicai/Code_file/code/OpenGL_code/homework_1/build",
+  "command": "/usr/bin/clang++  -isystem /opt/homebrew/include -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -o CMakeFiles/Homework1.dir/VertexArray.cpp.o -c /Users/yunicai/Code_file/code/OpenGL_code/homework_1/VertexArray.cpp",
+  "file": "/Users/yunicai/Code_file/code/OpenGL_code/homework_1/VertexArray.cpp",
+  "output": "CMakeFiles/Homework1.dir/VertexArray.cpp.o"
+}
+]

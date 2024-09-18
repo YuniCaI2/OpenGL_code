@@ -87,10 +87,15 @@ int main()
 {
     {
     glfwInit();
-    glfwWindowHint(GLFW_CONTEXT_VERSION_MAJOR, 3);
-    glfwWindowHint(GLFW_CONTEXT_VERSION_MINOR, 3);
+    glfwWindowHint(GLFW_CONTEXT_VERSION_MAJOR, 4);
+    glfwWindowHint(GLFW_CONTEXT_VERSION_MINOR, 1);
     glfwWindowHint(GLFW_OPENGL_PROFILE, 
-    GLFW_OPENGL_COMPAT_PROFILE);
+    GLFW_OPENGL_CORE_PROFILE);
+
+    if (!glfwInit()) {
+    fprintf(stderr, "Failed to initialize GLFW\n");
+    return -1;
+    }
 
     GLFWwindow* window = glfwCreateWindow(800, 600, 
     "LearnOpenGL", NULL, NULL);
@@ -140,6 +145,7 @@ int main()
     while(!glfwWindowShouldClose(window))
     {
         glUseProgram(program);
+        glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
         glBindVertexArray(VAO1);
         va.Bind();
         GLCall(glDrawElements(GL_TRIANGLES,6,GL_UNSIGNED_INT,nullptr););
