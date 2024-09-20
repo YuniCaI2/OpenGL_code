@@ -71,7 +71,7 @@ int main()
     while(!glfwWindowShouldClose(window))
     {
         // shader.Bind();
-        glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
+        render.Clear();
         render.Draw(va, ib, shader);
         // glBindVertexArray(VAO1);
         // va.Bind();
