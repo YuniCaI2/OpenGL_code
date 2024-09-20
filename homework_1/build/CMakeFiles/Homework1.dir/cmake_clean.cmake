@@ -3,6 +3,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/Homework1.dir/IndexBuffer.cpp.o.d"
   "CMakeFiles/Homework1.dir/Render.cpp.o"
   "CMakeFiles/Homework1.dir/Render.cpp.o.d"
+  "CMakeFiles/Homework1.dir/Shader.cpp.o"
+  "CMakeFiles/Homework1.dir/Shader.cpp.o.d"
   "CMakeFiles/Homework1.dir/VertexArray.cpp.o"
   "CMakeFiles/Homework1.dir/VertexArray.cpp.o.d"
   "CMakeFiles/Homework1.dir/VertexBuffer.cpp.o"

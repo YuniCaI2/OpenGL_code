@@ -117,24 +117,24 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named Homework1
+# Target rules for targets named HOMEWORK_1
 
 # Build rule for target.
-Homework1: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Homework1
-.PHONY : Homework1
+HOMEWORK_1: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 HOMEWORK_1
+.PHONY : HOMEWORK_1
 
 # fast build rule for target.
-Homework1/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Homework1.dir/build.make CMakeFiles/Homework1.dir/build
-.PHONY : Homework1/fast
+HOMEWORK_1/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/HOMEWORK_1.dir/build.make CMakeFiles/HOMEWORK_1.dir/build
+.PHONY : HOMEWORK_1/fast
 
 IndexBuffer.o: IndexBuffer.cpp.o
 .PHONY : IndexBuffer.o
 
 # target to build an object file
 IndexBuffer.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Homework1.dir/build.make CMakeFiles/Homework1.dir/IndexBuffer.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/HOMEWORK_1.dir/build.make CMakeFiles/HOMEWORK_1.dir/IndexBuffer.cpp.o
 .PHONY : IndexBuffer.cpp.o
 
 IndexBuffer.i: IndexBuffer.cpp.i
@@ -142,7 +142,7 @@ IndexBuffer.i: IndexBuffer.cpp.i
 
 # target to preprocess a source file
 IndexBuffer.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Homework1.dir/build.make CMakeFiles/Homework1.dir/IndexBuffer.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/HOMEWORK_1.dir/build.make CMakeFiles/HOMEWORK_1.dir/IndexBuffer.cpp.i
 .PHONY : IndexBuffer.cpp.i
 
 IndexBuffer.s: IndexBuffer.cpp.s
@@ -150,7 +150,7 @@ IndexBuffer.s: IndexBuffer.cpp.s
 
 # target to generate assembly for a file
 IndexBuffer.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Homework1.dir/build.make CMakeFiles/Homework1.dir/IndexBuffer.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/HOMEWORK_1.dir/build.make CMakeFiles/HOMEWORK_1.dir/IndexBuffer.cpp.s
 .PHONY : IndexBuffer.cpp.s
 
 Render.o: Render.cpp.o
@@ -158,7 +158,7 @@ Render.o: Render.cpp.o
 
 # target to build an object file
 Render.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Homework1.dir/build.make CMakeFiles/Homework1.dir/Render.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/HOMEWORK_1.dir/build.make CMakeFiles/HOMEWORK_1.dir/Render.cpp.o
 .PHONY : Render.cpp.o
 
 Render.i: Render.cpp.i
@@ -166,7 +166,7 @@ Render.i: Render.cpp.i
 
 # target to preprocess a source file
 Render.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Homework1.dir/build.make CMakeFiles/Homework1.dir/Render.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/HOMEWORK_1.dir/build.make CMakeFiles/HOMEWORK_1.dir/Render.cpp.i
 .PHONY : Render.cpp.i
 
 Render.s: Render.cpp.s
@@ -174,15 +174,39 @@ Render.s: Render.cpp.s
 
 # target to generate assembly for a file
 Render.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Homework1.dir/build.make CMakeFiles/Homework1.dir/Render.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/HOMEWORK_1.dir/build.make CMakeFiles/HOMEWORK_1.dir/Render.cpp.s
 .PHONY : Render.cpp.s
+
+Shader.o: Shader.cpp.o
+.PHONY : Shader.o
+
+# target to build an object file
+Shader.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/HOMEWORK_1.dir/build.make CMakeFiles/HOMEWORK_1.dir/Shader.cpp.o
+.PHONY : Shader.cpp.o
+
+Shader.i: Shader.cpp.i
+.PHONY : Shader.i
+
+# target to preprocess a source file
+Shader.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/HOMEWORK_1.dir/build.make CMakeFiles/HOMEWORK_1.dir/Shader.cpp.i
+.PHONY : Shader.cpp.i
+
+Shader.s: Shader.cpp.s
+.PHONY : Shader.s
+
+# target to generate assembly for a file
+Shader.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/HOMEWORK_1.dir/build.make CMakeFiles/HOMEWORK_1.dir/Shader.cpp.s
+.PHONY : Shader.cpp.s
 
 VertexArray.o: VertexArray.cpp.o
 .PHONY : VertexArray.o
 
 # target to build an object file
 VertexArray.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Homework1.dir/build.make CMakeFiles/Homework1.dir/VertexArray.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/HOMEWORK_1.dir/build.make CMakeFiles/HOMEWORK_1.dir/VertexArray.cpp.o
 .PHONY : VertexArray.cpp.o
 
 VertexArray.i: VertexArray.cpp.i
@@ -190,7 +214,7 @@ VertexArray.i: VertexArray.cpp.i
 
 # target to preprocess a source file
 VertexArray.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Homework1.dir/build.make CMakeFiles/Homework1.dir/VertexArray.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/HOMEWORK_1.dir/build.make CMakeFiles/HOMEWORK_1.dir/VertexArray.cpp.i
 .PHONY : VertexArray.cpp.i
 
 VertexArray.s: VertexArray.cpp.s
@@ -198,7 +222,7 @@ VertexArray.s: VertexArray.cpp.s
 
 # target to generate assembly for a file
 VertexArray.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Homework1.dir/build.make CMakeFiles/Homework1.dir/VertexArray.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/HOMEWORK_1.dir/build.make CMakeFiles/HOMEWORK_1.dir/VertexArray.cpp.s
 .PHONY : VertexArray.cpp.s
 
 VertexBuffer.o: VertexBuffer.cpp.o
@@ -206,7 +230,7 @@ VertexBuffer.o: VertexBuffer.cpp.o
 
 # target to build an object file
 VertexBuffer.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Homework1.dir/build.make CMakeFiles/Homework1.dir/VertexBuffer.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/HOMEWORK_1.dir/build.make CMakeFiles/HOMEWORK_1.dir/VertexBuffer.cpp.o
 .PHONY : VertexBuffer.cpp.o
 
 VertexBuffer.i: VertexBuffer.cpp.i
@@ -214,7 +238,7 @@ VertexBuffer.i: VertexBuffer.cpp.i
 
 # target to preprocess a source file
 VertexBuffer.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Homework1.dir/build.make CMakeFiles/Homework1.dir/VertexBuffer.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/HOMEWORK_1.dir/build.make CMakeFiles/HOMEWORK_1.dir/VertexBuffer.cpp.i
 .PHONY : VertexBuffer.cpp.i
 
 VertexBuffer.s: VertexBuffer.cpp.s
@@ -222,7 +246,7 @@ VertexBuffer.s: VertexBuffer.cpp.s
 
 # target to generate assembly for a file
 VertexBuffer.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Homework1.dir/build.make CMakeFiles/Homework1.dir/VertexBuffer.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/HOMEWORK_1.dir/build.make CMakeFiles/HOMEWORK_1.dir/VertexBuffer.cpp.s
 .PHONY : VertexBuffer.cpp.s
 
 main.o: main.cpp.o
@@ -230,7 +254,7 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Homework1.dir/build.make CMakeFiles/Homework1.dir/main.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/HOMEWORK_1.dir/build.make CMakeFiles/HOMEWORK_1.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -238,7 +262,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Homework1.dir/build.make CMakeFiles/Homework1.dir/main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/HOMEWORK_1.dir/build.make CMakeFiles/HOMEWORK_1.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -246,7 +270,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Homework1.dir/build.make CMakeFiles/Homework1.dir/main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/HOMEWORK_1.dir/build.make CMakeFiles/HOMEWORK_1.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 src/glad.o: src/glad.c.o
@@ -254,7 +278,7 @@ src/glad.o: src/glad.c.o
 
 # target to build an object file
 src/glad.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Homework1.dir/build.make CMakeFiles/Homework1.dir/src/glad.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/HOMEWORK_1.dir/build.make CMakeFiles/HOMEWORK_1.dir/src/glad.c.o
 .PHONY : src/glad.c.o
 
 src/glad.i: src/glad.c.i
@@ -262,7 +286,7 @@ src/glad.i: src/glad.c.i
 
 # target to preprocess a source file
 src/glad.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Homework1.dir/build.make CMakeFiles/Homework1.dir/src/glad.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/HOMEWORK_1.dir/build.make CMakeFiles/HOMEWORK_1.dir/src/glad.c.i
 .PHONY : src/glad.c.i
 
 src/glad.s: src/glad.c.s
@@ -270,7 +294,7 @@ src/glad.s: src/glad.c.s
 
 # target to generate assembly for a file
 src/glad.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Homework1.dir/build.make CMakeFiles/Homework1.dir/src/glad.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/HOMEWORK_1.dir/build.make CMakeFiles/HOMEWORK_1.dir/src/glad.c.s
 .PHONY : src/glad.c.s
 
 # Help Target
@@ -281,13 +305,16 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... Homework1"
+	@echo "... HOMEWORK_1"
 	@echo "... IndexBuffer.o"
 	@echo "... IndexBuffer.i"
 	@echo "... IndexBuffer.s"
 	@echo "... Render.o"
 	@echo "... Render.i"
 	@echo "... Render.s"
+	@echo "... Shader.o"
+	@echo "... Shader.i"
+	@echo "... Shader.s"
 	@echo "... VertexArray.o"
 	@echo "... VertexArray.i"
 	@echo "... VertexArray.s"

@@ -1,11 +1,21 @@
 #pragma once 
 
+#include "IndexBuffer.h"
+#include "Shader.h"
+#include "VertexArray.h"
 #include <glad/glad.h>
-#include <cassert>
-#define GLCall(x) GLClareError();\
-	x;\
-	assert(GLLogCall(#x, __FILE__, __LINE__))//__LINE__可以获得程序行号
+// #define GLCall(x) GLClareError();\
+// 	x;\
+// 	assert(GLLogCall(#x, __FILE__, __LINE__))//__LINE__可以获得程序行号
 
- void GLClareError();
+//  void GLClareError();
 
  bool GLLogCall(const char* function,const char* file,int line);
+
+ class Render
+ {
+public:
+	void Draw(const VertexArray& va, const IndexBuffer& ib,const Shader& shader) const;
+ };
+
+

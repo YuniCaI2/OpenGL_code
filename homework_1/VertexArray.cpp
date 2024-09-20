@@ -1,6 +1,4 @@
-#include <iostream>
-
-#include "Render.h"
+#include "Check.h"
 #include "VertexArray.h"
 #include "VertexBufferLayout.h"
 

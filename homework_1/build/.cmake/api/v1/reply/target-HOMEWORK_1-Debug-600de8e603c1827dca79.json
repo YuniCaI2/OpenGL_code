@@ -2,7 +2,7 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "Homework1"
+			"path" : "HOMEWORK_1"
 		}
 	],
 	"backtrace" : 1,
@@ -97,11 +97,12 @@
 				3,
 				5,
 				7,
-				10
+				10,
+				12
 			]
 		}
 	],
-	"id" : "Homework1::@6890427a1f51a3e7e1df",
+	"id" : "HOMEWORK_1::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -126,8 +127,8 @@
 		],
 		"language" : "CXX"
 	},
-	"name" : "Homework1",
-	"nameOnDisk" : "Homework1",
+	"name" : "HOMEWORK_1",
+	"nameOnDisk" : "HOMEWORK_1",
 	"paths" : 
 	{
 		"build" : ".",
@@ -144,7 +145,8 @@
 				3,
 				5,
 				7,
-				10
+				10,
+				12
 			]
 		},
 		{
@@ -155,7 +157,8 @@
 				4,
 				6,
 				8,
-				9
+				9,
+				11
 			]
 		}
 	],
@@ -220,6 +223,17 @@
 			"backtrace" : 1,
 			"compileGroupIndex" : 1,
 			"path" : "VertexArray.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Shader.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "Shader.cpp",
 			"sourceGroupIndex" : 0
 		}
 	],

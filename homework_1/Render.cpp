@@ -1,17 +1,16 @@
 #include "Render.h"
-#include <iostream>
+#include "Check.h"
+#include "IndexBuffer.h"
+#include "Shader.h"
+#include "VertexArray.h"
 
 
-void GLClareError()
+
+void Render::Draw(const VertexArray& va, const IndexBuffer& ib,const Shader& shader) const
 {
-    while(glGetError() != GL_NO_ERROR);//GL_NO_ERROR相当于0
-}
-bool GLLogCall(const char* function,const char* file,int line)
-{
-    while(GLenum error = glGetError())
-    {
-        std::cout<<"[OpenGL Error] (" << error <<"):" << function <<" " << file << ":" << line << std::endl;
-        return false;
-    }
-    return true;
+
+        shader.Bind();
+        va.Bind();
+        ib.Bind();
+        GLCall(glDrawElements(GL_TRIANGLES,ib.GetCount(),GL_UNSIGNED_INT,nullptr));
 }

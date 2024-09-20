@@ -27,7 +27,7 @@
 					[
 						0
 					],
-					"name" : "Homework1",
+					"name" : "HOMEWORK_1",
 					"targetIndexes" : 
 					[
 						0
@@ -38,9 +38,9 @@
 			[
 				{
 					"directoryIndex" : 0,
-					"id" : "Homework1::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-Homework1-Debug-459a04d4efcb0ae77219.json",
-					"name" : "Homework1",
+					"id" : "HOMEWORK_1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-HOMEWORK_1-Debug-600de8e603c1827dca79.json",
+					"name" : "HOMEWORK_1",
 					"projectIndex" : 0
 				}
 			]
