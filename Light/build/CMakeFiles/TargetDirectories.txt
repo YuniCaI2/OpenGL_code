@@ -1,0 +1,3 @@
+/Users/yunicai/Code_file/code/OpenGL_code/Light/build/CMakeFiles/Light.dir
+/Users/yunicai/Code_file/code/OpenGL_code/Light/build/CMakeFiles/edit_cache.dir
+/Users/yunicai/Code_file/code/OpenGL_code/Light/build/CMakeFiles/rebuild_cache.dir
